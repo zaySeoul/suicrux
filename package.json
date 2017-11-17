@@ -164,7 +164,7 @@
 	},
 	"engines": {
 		"node": ">=8",
-		"npm": "5.3.*"
+		"npm": ">5.5.1 <5.4.0"
 	},
 	"author": {
 		"name": "Vladimir Metnew",
