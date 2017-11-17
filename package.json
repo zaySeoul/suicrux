@@ -157,7 +157,8 @@
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8",
+    "npm": "5.3.*"
   },
   "author": {
     "name": "Vladimir Metnew",
