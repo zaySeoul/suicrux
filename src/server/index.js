@@ -9,7 +9,7 @@ import 'babel-polyfill'
 import server from './server'
 
 const app: express$Application = express()
-const port: number = +process.env.PORT
+const port: number = +process.env.PORT || 80
 
 server(app)
 
